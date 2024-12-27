@@ -25,4 +25,11 @@ int main()
     printf("Student Rank: %dnd\n", studenRank);
     printf("Student Fee Total: %4.2f\n", studentFeeTotal);
     printf("Student Grade Letter: %c\n", studentGradeLetter);
+
+    //exercies 3
+
+    int ageLearnedToRide = 5;
+
+    printf("I was years old when I learned to ride a bike.\n");
+    printf("I hope I stil remember how to ride.\n");
 }
