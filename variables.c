@@ -30,6 +30,6 @@ int main()
 
     int ageLearnedToRide = 5;
 
-    printf("I was years old when I learned to ride a bike.\n");
+    printf("I was %d years old when I learned to ride a bike.\n", ageLearnedToRide);
     printf("I hope I stil remember how to ride.\n");
 }
