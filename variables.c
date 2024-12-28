@@ -71,5 +71,16 @@ int main()
   int timeTraveledInSeconds = 30;
 
   // No need to change below here
-  printf("Light would travel %.2f miles in %d seconds\n", SPEEDOFLIGHT * 100000 * timeTraveledInSeconds, timeTraveledInSeconds);
+  printf("Light would travel %.2f miles in %d seconds\n",
+         SPEEDOFLIGHT * 100000 * timeTraveledInSeconds, timeTraveledInSeconds);
+  
+
+  // exercise 7
+
+    double testScore = 95.7;
+  int displayScore = 0;
+
+  displayScore = (int)testScore;
+  // No need to change below here
+  printf("Great work, you got a %d%% on your test\n", displayScore);
 }
