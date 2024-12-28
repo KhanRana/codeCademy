@@ -32,4 +32,16 @@ int main()
 
     printf("I was %d years old when I learned to ride a bike.\n", ageLearnedToRide);
     printf("I hope I stil remember how to ride.\n");
+
+    //exercise 4
+
+     int numOfBooks = 3;
+  char favLetter = 'A';
+  char favDigit = '7';
+  double costOfCandyBar = 1.99;
+
+  printf("Number of books: %d\n", numOfBooks);
+  printf("Your Favorite Letter is: %c\n", favLetter);
+  printf("Your Favorite Digit is: %c\n", favDigit);
+  printf("You expect to pay $%.2f for a candy bar.\n", costOfCandyBar);
 }
