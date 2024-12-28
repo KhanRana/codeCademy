@@ -63,4 +63,13 @@ int main()
   // No need to change below here
   printf("The book version has a review score of %c and costs $%2.3f\n", bookVersionReview, bookPrice);
   printf("The movie version has a review score of %c and costs $%2.3f\n", movieVersionReview, ticketPrice);
+
+  // exercise 6
+
+  // Speed of light is 1.86e5 mi/s or 186000 mi/s we will store 1.86 and do the multiplicaiton later.
+  const double SPEEDOFLIGHT = 1.86;
+  int timeTraveledInSeconds = 30;
+
+  // No need to change below here
+  printf("Light would travel %.2f miles in %d seconds\n", SPEEDOFLIGHT * 100000 * timeTraveledInSeconds, timeTraveledInSeconds);
 }
