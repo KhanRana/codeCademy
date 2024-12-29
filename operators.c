@@ -61,4 +61,14 @@ int main()
   {
     printf("Please try again!");
   }
+
+  //exercise 6: order of operations
+  int x;
+  int y;
+
+  x = (2 + 3) * 5;
+  y = 2 / (4 + 6);
+
+  printf("x is: %d\n", x);
+  printf("y is: %d\n", y);
 }
