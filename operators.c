@@ -21,8 +21,7 @@ int main() {
   // Output logic, no need to change this
   printf("You sold %d books and your take home was $%.2f\n", booksSold, totalSalesValue);
 
-  // exercise 2
-
+  // exercise 2: increment & decrement
   int n = 13;
   int m = 10;
   
@@ -30,4 +29,15 @@ int main() {
   n++;
   printf("m = %d\n", m);
   printf("n = %d\n", n);
+
+  //exercise 3: find losses
+    int timesServerCrashed = 5;
+  double losses = 500.95;
+
+
+  losses *= timesServerCrashed;
+  printf("Total Losses: $%.2f\n", losses);
+
+  
+
 }
