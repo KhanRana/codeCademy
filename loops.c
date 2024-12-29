@@ -11,10 +11,11 @@ int main()
     scanf("%d", &guess);
 
     // Write a while loop here:
-    while (guess != 8)
+    while (guess != 8 && tries < 50)
     {
         printf("Wrong guess, try again: ");
         scanf("%d", &guess);
+        tries++;
     }
 
     if (guess == 8)
