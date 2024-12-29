@@ -41,19 +41,19 @@ int main()
   printf("Adjusted Losses: $%.2f\n", losses);
 
   // exercise 4: comparison
-  int x = 5;
-  int y = 42;
+  int x4 = 5;
+  int y4 = 42;
 
-  if (x != y)
+  if (x4 != y4)
   {
     printf("Congratulations on setting up a comparison correctly!");
   }
 
   // exercise 5: logical operators
-  int x = 1;
-  int y = 27;
+  int x5 = 1;
+  int y5 = 27;
 
-  if (x != y)
+  if (x5 != y5)
   {
     printf("Congratulations on setting up a comparison correctly!");
   }
@@ -63,12 +63,12 @@ int main()
   }
 
   //exercise 6: order of operations
-  int x;
-  int y;
+  int x6;
+  int y6;
 
-  x = (2 + 3) * 5;
-  y = 2 / (4 + 6);
+  x6 = (2 + 3) * 5;
+  y6 = 2 / (4 + 6);
 
-  printf("x is: %d\n", x);
-  printf("y is: %d\n", y);
+  printf("x is: %d\n", x6);
+  printf("y is: %d\n", y6);
 }
