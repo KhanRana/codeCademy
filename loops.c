@@ -63,4 +63,21 @@ int main()
         numbers_entered2++;
     }
     printf("Good job! You’ve broken out!\n");
+
+    // continue statement
+
+    int number3 = 0;
+
+    while (number3 < 10)
+    {
+        // Figure out how to skip the print of 5 here
+        if (number3 == 5)
+        {
+            i++;
+            continue;
+        }
+
+        printf("%d\n", number3);
+        number3++;
+    }
 }
