@@ -38,6 +38,8 @@ int main() {
   losses *= timesServerCrashed;
   printf("Total Losses: $%.2f\n", losses);
 
-  
+  //adjust the losses
+  losses /= 2;
+  printf("Adjusted Losses: $%.2f\n", losses);
 
 }
