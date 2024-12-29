@@ -22,4 +22,14 @@ int main()
     {
         printf("You got it!\n");
     }
+
+    // do-while
+
+    int i = 11;
+
+    do
+    {
+        printf("%d\n", i);
+        i++;
+    } while (i < 10);
 }
