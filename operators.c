@@ -42,4 +42,13 @@ int main() {
   losses /= 2;
   printf("Adjusted Losses: $%.2f\n", losses);
 
+
+  //exercise 4: comparison
+    int x = 5;
+  int y = 42;
+
+  if (x !=  y) {
+   printf("Congratulations on setting up a comparison correctly!");
+  }
+
 }
