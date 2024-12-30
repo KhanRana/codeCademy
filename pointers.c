@@ -23,14 +23,18 @@ int main()
 
     // Code for Checkpoint 1 goes here.
     // length of array
-    int len = sizeof(arr) / sizeof(int); //length of the array
-    int *ptr = &arr[len - 1]; //last value
+    int len = sizeof(arr) / sizeof(int); // length of the array
+    int *ptr = &arr[len - 1];            // last value
 
-    printf("%d\n", len); //prints the length of the array
-    printf("%d\n", *ptr); //prints the value at index len-1
-    
+    printf("%d\n", len);  // prints the length of the array
+    printf("%d\n", *ptr); // prints the value at index len-1
+
     // Code for Checkpoint 2 goes here.
-
+    for (int i = 0; i < len; i++)
+    {
+        printf("%d\n", *ptr);
+        ptr--;
+    }
     // Code for Checkpoint 3 goes here.
 
     // Code for Checkpoint 4 goes here.
