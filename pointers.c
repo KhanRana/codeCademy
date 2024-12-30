@@ -36,8 +36,13 @@ int main()
         ptr--;
     }
     // Code for Checkpoint 3 goes here.
-
+    char *ptr2 = &s[0];
     // Code for Checkpoint 4 goes here.
+    for (int i = 0; i < strlen(s); i++)
+    {
+        *ptr2 = '#';
+        ptr2++;
+    }
 
     printf("%s\n", s);
 }
