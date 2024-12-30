@@ -11,7 +11,7 @@ int main()
     double *dblPtr = &g;
 
     // Checkpoint 2 code goes here.
-    printf("%p", dblPtr);
+    printf("%p\n", dblPtr);
 
     // Checkpoint 3 code goes here.
 
@@ -23,8 +23,11 @@ int main()
 
     // Code for Checkpoint 1 goes here.
     // length of array
-    int len = sizeof(arr) / sizeof(int);
-    printf("%d\n", len);
+    int len = sizeof(arr) / sizeof(int); //length of the array
+    int *ptr = &arr[len - 1]; //last value
+
+    printf("%d\n", len); //prints the length of the array
+    printf("%d\n", *ptr); //prints the value at index len-1
     
     // Code for Checkpoint 2 goes here.
 
