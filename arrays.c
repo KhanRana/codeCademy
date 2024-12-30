@@ -31,20 +31,23 @@ int main(void)
     int sum = 0;
 
     // Checkpoint 1 code goes here.
-    printf("%i", matrix[3][1]);
+    printf("%i\n", matrix[3][1]);
 
     // Checkpoint 2 code goes here.
     int rowsNumber = sizeof(matrix) / sizeof(matrix[0]);
     int columnsNumber = sizeof(matrix[0]) / sizeof(int);
 
-    printf("%i", rowsNumber);
-    printf("%i", columnsNumber);
+    printf("Number of Rows: %i\n", rowsNumber);
+    printf("Number of Columns: %i\n", columnsNumber);
 
     for (int i = 0; i < rowsNumber; i++)
     {
-        for (int j = 0; i < columnsNumber; j++)
+        for (int j = 0; j < columnsNumber; j++)
         {
             sum += matrix[i][j];
         }
     }
+
+    //print the sum
+    printf("The sum of all elements is: %i\n", sum);
 }
