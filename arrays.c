@@ -19,10 +19,32 @@ int main(void)
     }
 
     // mutidimensional arrays
-    
+
     // Checkpoint 1 code goes here.
     int arr[9][9];
 
     // Checkpoint 2 code goes here.
-    int matrix[3][3] = {{2, 9, 11}, {3, 1, 4}, {8, 3, 1}};
+    // int matrix[3][3] = {{2, 9, 11}, {3, 1, 4}, {8, 3, 1}};
+
+    // summing multidimensional arrays
+    int matrix[][4] = {{14, 10, 6, 4}, {3, 7, 18, 11}, {13, 9, 5, 17}, {19, 12, 2, 1}};
+    int sum = 0;
+
+    // Checkpoint 1 code goes here.
+    printf("%i", matrix[3][1]);
+
+    // Checkpoint 2 code goes here.
+    int rowsNumber = sizeof(matrix) / sizeof(matrix[0]);
+    int columnsNumber = sizeof(matrix[0]) / sizeof(int);
+
+    printf("%i", rowsNumber);
+    printf("%i", columnsNumber);
+
+    for (int i = 0; i < rowsNumber; i++)
+    {
+        for (int j = 0; i < columnsNumber; j++)
+        {
+            sum += matrix[i][j];
+        }
+    }
 }
