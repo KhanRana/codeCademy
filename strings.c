@@ -22,4 +22,21 @@ int main(void)
     p[5] = 's';
     p[6] = 's';
     printf("%s", p);
+
+    // looping through strings
+
+    char s[] = "When the zombies arrive, quickly fax Judge Pat Alphabet";
+    char t[] = "poolloop";
+    // Checkpoint 1 code goes here
+    for (int i = 0; i < strlen(s); i++)
+    {
+        s[i] = '*';
+    }
+    printf("%s\n", s);
+    // Checkpoint 2 code goes here
+    for (int i = 0; i < (int)(strlen(t) / 2); i++)
+    {
+        t[i] = '#';
+    }
+    printf("%s", t);
 }
