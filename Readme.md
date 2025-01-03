@@ -1,0 +1,12 @@
+# Topics Covered 
+- Variables
+- Operators
+- Expressions
+- Flow control
+  - if-else
+  - while
+  - do-while
+  - for
+  - switch
+- Functions
+  - 
