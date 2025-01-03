@@ -8,6 +8,7 @@ int main()
     double pi = 3.14;
 
     // Checkpoint 1 code goes here.
+    //pointer to a double variable i.e. 
     double *dblPtr = &g;
 
     // Checkpoint 2 code goes here.
@@ -45,4 +46,9 @@ int main()
     }
 
     printf("%s\n", s);
+
+    //get the value of type int
+    //%zu is the type specifier for size_t
+    printf("%zu\n", sizeof(int));
+    
 }
